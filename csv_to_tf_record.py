@@ -22,14 +22,10 @@ from collections import namedtuple, OrderedDict
 # TO-DO replace this with label map
 
 def class_text_to_int(row_label):
-    if row_label == 'closedbook':
+    if row_label == 'cat':
         return 0
-    elif row_label == 'emptycup':
+    elif row_label == 'dog':
         return 1
-    elif row_label == 'fullcup':
-        return 2
-    elif row_label == 'openbook':
-        return 3
     else:
         None
 
